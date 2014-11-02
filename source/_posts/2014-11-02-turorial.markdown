@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Turorial"
+date: 2014-11-02 11:02:04 +0800
+comments: true
+categories: 
+---
+
+Here is a example of how to write markdown file in sublime 2.
+
+**black**
+
+*italian*
+
+tag: tutorial blogconfiguration
+
