@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Home of IS]]></title>
+  <link href="http://dong-y.github.io/atom.xml" rel="self"/>
+  <link href="http://dong-y.github.io/"/>
+  <updated>2014-11-02T16:08:29+08:00</updated>
+  <id>http://dong-y.github.io/</id>
+  <author>
+    <name><![CDATA[Justine Y. DONG]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[testtesttest]]></title>
+    <link href="http://dong-y.github.io/blog/2014/11/02/testtesttest/"/>
+    <updated>2014-11-02T16:03:49+08:00</updated>
+    <id>http://dong-y.github.io/blog/2014/11/02/testtesttest</id>
+    <content type="html"><![CDATA[<h1>this is a test</h1>
+
+<h2>this is so cool</h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[newtest]]></title>
+    <link href="http://dong-y.github.io/blog/2014/11/02/newtest/"/>
+    <updated>2014-11-02T15:22:09+08:00</updated>
+    <id>http://dong-y.github.io/blog/2014/11/02/newtest</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[this is a test]]></title>
+    <link href="http://dong-y.github.io/blog/2014/11/02/this-is-a-test/"/>
+    <updated>2014-11-02T11:30:22+08:00</updated>
+    <id>http://dong-y.github.io/blog/2014/11/02/this-is-a-test</id>
+    <content type="html"><![CDATA[<p>Now I am going to write some bullshit</p>
+
+<p>to test if this works.</p>
+
+<p>God bless</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Turorial]]></title>
+    <link href="http://dong-y.github.io/blog/2014/11/02/turorial/"/>
+    <updated>2014-11-02T11:02:04+08:00</updated>
+    <id>http://dong-y.github.io/blog/2014/11/02/turorial</id>
+    <content type="html"><![CDATA[<p>Here is a example of how to write markdown file in sublime 2.</p>
+
+<p><strong>black</strong></p>
+
+<p><em>italian</em></p>
+
+<p>tag: tutorial blogconfiguration</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Life Is About Making Contributions]]></title>
+    <link href="http://dong-y.github.io/blog/2014/11/02/life-is-about-making-contributions/"/>
+    <updated>2014-11-02T00:00:00+08:00</updated>
+    <id>http://dong-y.github.io/blog/2014/11/02/life-is-about-making-contributions</id>
+    <content type="html"><![CDATA[<hr />
+
+<p>layout: post
+title: &ldquo;Life is about making contributions&rdquo;
+date: 2014-11-02</p>
+]]></content>
+  </entry>
+  
+</feed>
