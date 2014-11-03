@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Tutorial | Home of IS]]></title>
+  <title><![CDATA[Category: Tutorial | Justine Y. DONG]]></title>
   <link href="http://dong-y.github.io/blog/categories/tutorial/atom.xml" rel="self"/>
   <link href="http://dong-y.github.io/"/>
-  <updated>2014-11-03T11:28:05+08:00</updated>
+  <updated>2014-11-03T11:32:57+08:00</updated>
   <id>http://dong-y.github.io/</id>
   <author>
     <name><![CDATA[Justine Y. DONG]]></name>
@@ -34,6 +34,9 @@
 <li>Errors You Might Run Into</li>
 </ul>
 </blockquote>
+
+<!-- more -->
+
 
 <hr />
 
