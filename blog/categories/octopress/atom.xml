@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: octopress | Home of IS]]></title>
+  <link href="http://dong-y.github.io/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://dong-y.github.io/"/>
+  <updated>2014-11-03T11:08:20+08:00</updated>
+  <id>http://dong-y.github.io/</id>
+  <author>
+    <name><![CDATA[Justine Y. DONG]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[how to create a free blog with octopress and github]]></title>
+    <link href="http://dong-y.github.io/blog/2014/11/03/how-to-create-a-free-blog-with-octopress-and-github/"/>
+    <updated>2014-11-03T11:00:40+08:00</updated>
+    <id>http://dong-y.github.io/blog/2014/11/03/how-to-create-a-free-blog-with-octopress-and-github</id>
+    <content type="html"><![CDATA[<hr />
+
+<h2>Introduction</h2>
+
+<p>This is a tutorial on how to create a free blog with Octopress and Github for <strong>greenhands</strong>, well just like me! I am a PhD student in Information Systems and would like to share what I learned with others through a blog. But I know little about html and web development&hellip; <strong>markdown</strong> really saved my life. If you are interested in <strong>coding</strong> a blog like me, this tutorial might be helpful.</p>
+
+<p>PS: This is a tutorial on <strong>mac OSX Yosemite</strong>.</p>
+
+<blockquote><ul>
+<li>Install Ruby</li>
+<li>Install and Configure Octopress</li>
+<li>Deploy your Blog</li>
+<li>Start to Write!</li>
+<li>Errors You Might Run Into</li>
+</ul>
+</blockquote>
+
+<hr />
+
+<h2>0.Get your Github account</h2>
+
+<p>At the beginning, make sure that you have a <strong>Github</strong> account and add a <code>repository</code> in the format like <strong>username</strong>.github.io. No other names allowed! If you&rsquo;d like a cool name like <code>blackpumpkin</code>, please purchase one on <code>godaddy</code>.</p>
+
+<h2>1.Install Ruby</h2>
+
+<p>Firstly, open your <strong>Terminal</strong> and then type the code below.</p>
+
+<pre><code>$ curl -L http://get.rvm.io | bash -s stable --ruby
+$ rvm install 2.0
+$ rvm use 2.0
+$ rvm rubygems latest
+</code></pre>
+
+<h2>2.Install and Configure Octopress</h2>
+
+<pre><code>$ git clone git://github.com/imathis/octopress.git coder_blog
+</code></pre>
+
+<p>There are two ways to install theme. If you would like to find some cool and stylish theme, then you should definitely use <strong>third-party</strong> theme.</p>
+
+<h3>Install default theme</h3>
+
+<pre><code>$ cd octopress
+$ gem install bundler
+$ bundle install
+$ rake install 
+</code></pre>
+
+<h3>Install third-party theme</h3>
+
+<pre><code>$ cd octopress
+$ git clone git://github.com/panks/fabric.git .themes/fabric
+$ rake install['fabric']
+$ rake generate
+</code></pre>
+
+<p>You can pick up a theme you like <a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">here</a>. But remember to adapt the code above.</p>
+
+<h3>Configuration</h3>
+
+<p>Now you have to open the &lsquo;_config.yml&rsquo; and change the <code>url</code> <code>title</code> <code>sbutitle</code> <code>author</code>. If you are interested in, you can also enable some third party services there.</p>
+
+<h2>Deploy your Blog</h2>
+
+<pre><code>$ rake setup_github_pages[git@github.com:yourname/yourname.github.io.git]
+$ rake generate
+$ rake deploy
+</code></pre>
+
+<p>Now you need to play a round of Doodle Jump and drink a cup of coffee. Then you can visit your own homepage.</p>
+
+<h2>Start to Write!</h2>
+
+<p>The default format of blog is <a href="http://en.wikipedia.org/wiki/Markdown">markdown</a>. It is quite easy to learn how to use it. Try it and you&rsquo;ll love it.</p>
+
+<pre><code>$ rake new_post["title"]
+</code></pre>
+
+<p>Then you can find a file like <code>source/_posts/YYYY-MM-DD-title.markdown</code>. Open it with <a href="http://25.io/mou/">Mou</a> or some markdown editor you like. Start writing!
+When you finish it, you need simply follow the steps:</p>
+
+<pre><code>$ rake generate
+$ rake watch
+$ rake preview # preview your blog at http://localhost:4000
+$ rake deploy
+</code></pre>
+
+<p>More techniques about blogging: <a href="http://octopress.org/docs/blogging/">Blogging basics</a></p>
+
+<h2>PS (but very important)</h2>
+
+<p>Sorry, I put it in the last merely because where I ran into these errors which has driven me crazy.
+You might run into the following error and find the following helpful:</p>
+
+<pre><code>Building Warining: Layout 'nil' requested in blog/tags/git/atom.xml do
+</code></pre>
+
+<p>Here is the solution: find the files</p>
+
+<ul>
+<li><code>source/atom.xml</code></li>
+<li><code>source/robots.txt</code></li>
+<li><code>source/_includes/custom/category_feed.xml</code></li>
+</ul>
+
+
+<p>Replace <code>layout: null</code> with <code>layout:nil</code></p>
+
+<p>Don&rsquo;t ask me why&hellip; If you are curious, please ask google.</p>
+
+<p>Woohoo! I&rsquo;m satisfied with my own blog right now. What about you?</p>
+
+<hr />
+
+<h4>References</h4>
+
+<p>Thanks to the following blogs:</p>
+
+<p><a href="http://beyondvincent.com/blog/2013/08/03/108-creating-a-github-blog-using-octopress/">利用Octopress搭建一个Github博客</a></p>
+
+<p><a href="http://miguelcamba.com/blog/2013/04/22/tutorial-create-a-blog-with-octopress-and-host-it-in-github-pages/">Tutorial: Create a Blog With Octopress and Host It in Github Pages</a></p>
+
+<p><a href="http://www.bravo-kernel.com/2014/08/how-to-fix-octopress-build-warning-layout-nil-requested/">How to fix Octopress build warning Layout nil requested</a></p>
+]]></content>
+  </entry>
+  
+</feed>
