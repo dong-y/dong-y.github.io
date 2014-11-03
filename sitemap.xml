@@ -6,57 +6,32 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://dong-y.github.io/blog/2014/11/02/testtesttest/</loc>
-    <lastmod>2014-11-02T16:03:49+08:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://dong-y.github.io/blog/2014/11/02/newtest/</loc>
-    <lastmod>2014-11-02T15:22:09+08:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://dong-y.github.io/blog/2014/11/02/this-is-a-test/</loc>
-    <lastmod>2014-11-02T11:30:22+08:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://dong-y.github.io/blog/2014/11/02/turorial/</loc>
-    <lastmod>2014-11-02T11:02:04+08:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://dong-y.github.io/blog/2014/11/02/life-is-about-making-contributions/</loc>
-    <lastmod>2014-11-02T00:00:00+08:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>http://dong-y.github.io/archives/</loc>
-    <lastmod>2014-11-03T11:08:20+08:00</lastmod>
+    <lastmod>2014-11-03T11:28:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://dong-y.github.io/blog/archives/</loc>
-    <lastmod>2014-11-03T11:08:20+08:00</lastmod>
+    <lastmod>2014-11-03T11:28:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://dong-y.github.io/blog/</loc>
-    <lastmod>2014-11-03T11:08:20+08:00</lastmod>
+    <lastmod>2014-11-03T11:28:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://dong-y.github.io/</loc>
-    <lastmod>2014-11-03T11:08:20+08:00</lastmod>
+    <lastmod>2014-11-03T11:28:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://dong-y.github.io/search.html</loc>
-    <lastmod>2014-11-03T11:08:20+08:00</lastmod>
+    <lastmod>2014-11-03T11:28:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

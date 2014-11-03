@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: octopress | Home of IS]]></title>
+  <title><![CDATA[Category: Octopress | Home of IS]]></title>
   <link href="http://dong-y.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://dong-y.github.io/"/>
-  <updated>2014-11-03T11:08:20+08:00</updated>
+  <updated>2014-11-03T11:28:05+08:00</updated>
   <id>http://dong-y.github.io/</id>
   <author>
     <name><![CDATA[Justine Y. DONG]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[how to create a free blog with octopress and github]]></title>
+    <title type="html"><![CDATA[How to Create a Free Blog With Octopress and Github]]></title>
     <link href="http://dong-y.github.io/blog/2014/11/03/how-to-create-a-free-blog-with-octopress-and-github/"/>
     <updated>2014-11-03T11:00:40+08:00</updated>
     <id>http://dong-y.github.io/blog/2014/11/03/how-to-create-a-free-blog-with-octopress-and-github</id>
@@ -104,6 +104,8 @@ $ rake watch
 $ rake preview # preview your blog at http://localhost:4000
 $ rake deploy
 </code></pre>
+
+<p>You can insert <code>&lt;!-- more --&gt;</code> in your blog to prevent the post content below this mark from being displayed on the index page for the blog posts, a &ldquo;Continue →&rdquo; button links to the full post.</p>
 
 <p>More techniques about blogging: <a href="http://octopress.org/docs/blogging/">Blogging basics</a></p>
 
