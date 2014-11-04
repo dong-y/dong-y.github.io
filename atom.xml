@@ -4,7 +4,7 @@
   <title><![CDATA[Justine Y. DONG]]></title>
   <link href="http://dong-y.github.io/atom.xml" rel="self"/>
   <link href="http://dong-y.github.io/"/>
-  <updated>2014-11-03T11:32:57+08:00</updated>
+  <updated>2014-11-04T13:07:51+08:00</updated>
   <id>http://dong-y.github.io/</id>
   <author>
     <name><![CDATA[Justine Y. DONG]]></name>
@@ -14,11 +14,49 @@
 
   
   <entry>
-    <title type="html"><![CDATA[How to Create a Free Blog With Octopress and Github]]></title>
+    <title type="html"><![CDATA[life is about making contributions]]></title>
+    <link href="http://dong-y.github.io/blog/2014/11/04/life-is-about-making-contributions/"/>
+    <updated>2014-11-04T12:26:50+08:00</updated>
+    <id>http://dong-y.github.io/blog/2014/11/04/life-is-about-making-contributions</id>
+    <content type="html"><![CDATA[<p>Last afternoon, I attended the head of IS, prof Teo&rsquo;s seminar on &ldquo;your future&rdquo;. Nothing about techincal or theoratical stuff while some interesting stories were shared about his own experience. If there&rsquo;s a clue for the talk, I think it might be making contribution to <strong>knowledge</strong>, to <strong>students</strong>, to <strong>university&rsquo;s or international communities</strong>.</p>
+
+<p>As a PhD student, or a researcher in the future, we are expected to find the gap between reality and prior research and make contribution to the relevant domain. This is the foundemental criteria for PhD students. It is almost the survival manual for each of us.</p>
+
+<!-- more -->
+
+
+<p>Most of us will become faculty members in a few years. It is far fromenough to just generate knowledge while it is almost equally important to disseminate knowledge to students, practitioners or even the mass. It must be cool to share your research results with people from different fields like Dan Ariely and Chris Anderson.</p>
+
+<p>If in the next 10 years I could achieve the above two kinds of contribution, I think I might be a fair research faculty in whatever university. However, the more I know about &ldquo;research field&rdquo;, I find it more than just &ldquo;research&rdquo;. Prof. Teo shared that the first year he got employed by NUS he started to write emails to editors in A-Journals, briefly introducing himself, his research interest and his willingness to review relevant papers voluntarily. After one or two years&#8217; persistence, he finally got a chance to review papers and till now he has served for the editorial board for quite a number of top journals. By reviewing papers voluntarily, Prof. Teo has got himself well-known by others and also he keeps the latest trend of research topics.</p>
+
+<p>Additionally the importance of making yourself famous, say marketing yourself, can never be stressed more even in research field. Reviewers or editors are first of all humanbeings and then experts. It is always the case that they will 100% reject a paper with an unkown author. Hence attending conference, media metion and invited talks are important ways to make yourself known by others. I think I might start my own homepage at the end of this year to share knowledge about data analysis like &ldquo;statwiki&rdquo;, of course with a CV link.</p>
+
+<p>One more interesting inspiration. When Prof. Teo did case study in 1990s, the questionnairs were sent out by mail. The secretaries of CEO, CIO and CFO in large companies are overwhelmed with mails every day. How can Teo make him questionnairs distinguished? The answer is simple: just by printing them in different colors of papers, red for CEO, green for CIO and yellow for CFO. When he made phone calls to secretaries, he just asked if they could fill in the &ldquo;red, green and yellow&rdquo; questionnairs and the answers were mostly positive because of the little trick. Research is more than just research. As is usual the case, it demands the ability to solve miscellaneous problems with your own intelligence.</p>
+
+<p>Well finally, here&rsquo;s a question: How can you make yourself impressive to &ldquo;big name&#8221;s in a conference?</p>
+
+<p><em>Raise questions.</em></p>
+
+<hr />
+
+<p>This is also one of the reasons why I started to write my own blog and share what I&rsquo;ve learned with others.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How To Create A Free Blog With Octopress And Github]]></title>
     <link href="http://dong-y.github.io/blog/2014/11/03/how-to-create-a-free-blog-with-octopress-and-github/"/>
-    <updated>2014-11-03T11:00:40+08:00</updated>
+    <updated>2014-11-03T00:00:00+08:00</updated>
     <id>http://dong-y.github.io/blog/2014/11/03/how-to-create-a-free-blog-with-octopress-and-github</id>
     <content type="html"><![CDATA[<hr />
+
+<p>layout: post
+title: &ldquo;how to create a free blog with octopress and github&rdquo;
+date: 2014-11-03 11:00:40 +0800
+comments: true
+categories:[octopress, tutorial]</p>
+
+<hr />
 
 <h2>Introduction</h2>
 
