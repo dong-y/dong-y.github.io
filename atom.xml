@@ -4,7 +4,7 @@
   <title><![CDATA[Justine Y. DONG]]></title>
   <link href="http://dong-y.github.io/atom.xml" rel="self"/>
   <link href="http://dong-y.github.io/"/>
-  <updated>2014-11-04T13:07:51+08:00</updated>
+  <updated>2014-11-04T13:08:59+08:00</updated>
   <id>http://dong-y.github.io/</id>
   <author>
     <name><![CDATA[Justine Y. DONG]]></name>
@@ -14,11 +14,21 @@
 
   
   <entry>
-    <title type="html"><![CDATA[life is about making contributions]]></title>
+    <title type="html"><![CDATA[Life Is About Making Contributions]]></title>
     <link href="http://dong-y.github.io/blog/2014/11/04/life-is-about-making-contributions/"/>
-    <updated>2014-11-04T12:26:50+08:00</updated>
+    <updated>2014-11-04T00:00:00+08:00</updated>
     <id>http://dong-y.github.io/blog/2014/11/04/life-is-about-making-contributions</id>
-    <content type="html"><![CDATA[<p>Last afternoon, I attended the head of IS, prof Teo&rsquo;s seminar on &ldquo;your future&rdquo;. Nothing about techincal or theoratical stuff while some interesting stories were shared about his own experience. If there&rsquo;s a clue for the talk, I think it might be making contribution to <strong>knowledge</strong>, to <strong>students</strong>, to <strong>university&rsquo;s or international communities</strong>.</p>
+    <content type="html"><![CDATA[<hr />
+
+<p>layout: post
+title: &ldquo;life is about making contributions&rdquo;
+date: 2014-11-04 12:26:50 +0800
+comments: true
+categories:[thoughts]</p>
+
+<hr />
+
+<p>Last afternoon, I attended the head of IS, prof Teo&rsquo;s seminar on &ldquo;your future&rdquo;. Nothing about techincal or theoratical stuff while some interesting stories were shared about his own experience. If there&rsquo;s a clue for the talk, I think it might be making contribution to <strong>knowledge</strong>, to <strong>students</strong>, to <strong>university&rsquo;s or international communities</strong>.</p>
 
 <p>As a PhD student, or a researcher in the future, we are expected to find the gap between reality and prior research and make contribution to the relevant domain. This is the foundemental criteria for PhD students. It is almost the survival manual for each of us.</p>
 
