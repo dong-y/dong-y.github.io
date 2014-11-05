@@ -4,7 +4,7 @@
   <title><![CDATA[Justine Y. DONG]]></title>
   <link href="http://dong-y.github.io/atom.xml" rel="self"/>
   <link href="http://dong-y.github.io/"/>
-  <updated>2014-11-04T13:08:59+08:00</updated>
+  <updated>2014-11-05T10:03:02+08:00</updated>
   <id>http://dong-y.github.io/</id>
   <author>
     <name><![CDATA[Justine Y. DONG]]></name>
@@ -20,11 +20,15 @@
     <id>http://dong-y.github.io/blog/2014/11/04/life-is-about-making-contributions</id>
     <content type="html"><![CDATA[<hr />
 
-<p>layout: post
-title: &ldquo;life is about making contributions&rdquo;
-date: 2014-11-04 12:26:50 +0800
-comments: true
-categories:[thoughts]</p>
+<p>layout: post</p>
+
+<p>title: &ldquo;life is about making contributions&rdquo;</p>
+
+<p>date: 2014-11-04 12:26:50 +0800</p>
+
+<p>comments: true</p>
+
+<p>categories: thoughts</p>
 
 <hr />
 
@@ -64,7 +68,7 @@ categories:[thoughts]</p>
 title: &ldquo;how to create a free blog with octopress and github&rdquo;
 date: 2014-11-03 11:00:40 +0800
 comments: true
-categories:[octopress, tutorial]</p>
+categories: octopress, tutorial</p>
 
 <hr />
 
